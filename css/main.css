@@ -6,7 +6,7 @@ html {
 }
 .icon-bar {
     width: 90px; /* Set a specific width */
-    background-color: #000; /* Dark-grey background */
+    background-color: #000; /* black background */
 }
 
 .icon-bar a {
@@ -24,7 +24,7 @@ html {
 }
 
 .active {
-    background-color: #4CAF50; /* Add an active/current color */
+    background-color: #000; /* Add an active/current color */
 }
 nav a {
     float: right;
@@ -32,16 +32,19 @@ nav a {
 }
 
 nav a.active {
-    background-color: #8bc34a;
+    background-color: #000;
     color: #fff;
 }
 nav .search-box {
     float: left;
 }
 nav input[type=text] {
-    padding: 5px;
-    margin-top: 7px;
-    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border: 2px;
+    margin-left:100px;
+    background: #000;
+
 }
 
 nav .search-box button {
@@ -49,12 +52,14 @@ nav .search-box button {
     padding: 5px;
     margin-top: 7px;
     margin-right: 15px;
-    background: #8bc34a;
+    background: #000;
     border: none;
     cursor: pointer;
 }
 nav .search-box button:hover {
     background: #bdbdbd;
+
+
 }
 
 .d1{background:PaleGreen;}
@@ -66,10 +71,11 @@ nav .search-box button:hover {
 
 .container {
     font-size: 40px;
-    min-height: 300px;
+    min-height: 100px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px 20px;
+    margin-left:100px;
 }
