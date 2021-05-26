@@ -14,6 +14,10 @@ body {
 	height: 56px;
 }
 
+.microphone {
+	width: 24px;
+}
+
 .main {
 	display: flex;
 	flex-direction: row;
@@ -52,6 +56,7 @@ body {
 	width: 45px;
 	height: auto;
 }
+
 .icon-bar a:hover {
 	background-color: #555;
 }
