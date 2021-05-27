@@ -9,7 +9,7 @@ body {
 	background: #181818 !important;
 }
 
-.header{
+.header {
 	width: 100%;
 	height: 56px;
 }
@@ -31,6 +31,7 @@ body {
 .left-nav {
 	width: 72px;
 	text-align: center;
+	font-size: 10px;
 }
 
 .grid {
