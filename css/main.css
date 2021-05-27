@@ -16,11 +16,9 @@ body {
 .logo{
 	width: 120px;
 	height: 56px;
-
 }
 .microphone {
 	width: 24px;
-	position: relative;
 }
 
 .main {
@@ -32,6 +30,7 @@ body {
 }
 .left-nav {
 	width: 72px;
+	text-align: center;
 }
 
 .grid {
