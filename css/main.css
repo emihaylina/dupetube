@@ -64,9 +64,6 @@ body {
 	background-color: #555;
 }
 
-.active {
-	background-color: #000;
-}
 
 nav a {
 	float: right;
@@ -104,13 +101,5 @@ nav .search-box button {
 /*ToDo: avoid tag selectors, rm all nav, use class selectors, 1 for block*/
 nav .search-box button:hover {
 	background: #bdbdbd;
-}
-
-.d1, .d3, .d5 {
-	background: PaleGreen;
-}
-
-.d2, .d4, .d6  {
-	background: LightSalmon;
 }
 
