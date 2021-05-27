@@ -16,13 +16,16 @@ body {
 
 .microphone {
 	width: 24px;
+	position: relative;
 }
 
 .main {
 	display: flex;
 	flex-direction: row;
 }
-
+.left-nav a:hover {
+	background-color: #555;
+}
 .left-nav {
 	width: 72px;
 }
@@ -32,7 +35,7 @@ body {
 	min-height: 100px;
 	width: 100%;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 10px 20px;
 	overflow-y: scroll;
