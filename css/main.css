@@ -13,7 +13,11 @@ body {
 	width: 100%;
 	height: 56px;
 }
+.logo{
+	width: 120px;
+	height: 56px;
 
+}
 .microphone {
 	width: 24px;
 	position: relative;
