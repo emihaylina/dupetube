@@ -38,10 +38,17 @@ iframe {
   justify-content: center;
   align-items: center;
   height: 72px;
+  text-align: center;
 }
+
 .icone {
   color: #909090;
+  width: 24px;
+  height: 24px;
 }
+/*.icone:focus {*/
+/*  color: #fff;*/
+/*}*/
 
 .left-nav a:hover {
   background-color: #555;
@@ -61,10 +68,6 @@ iframe {
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 10px 20px;
   overflow-y: scroll;
-}
-
-.icon-bar a:hover {
-  background-color: #555;
 }
 
 .active {
