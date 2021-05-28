@@ -32,6 +32,14 @@ iframe {
   flex-direction: row;
 }
 
+.iconButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+}
+
 .left-nav a:hover {
   background-color: #555;
 }
