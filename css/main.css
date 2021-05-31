@@ -23,21 +23,28 @@ iframe {
   height: 56px;
 }
 
-.magnifier {
-  width: 24px;
+[data-title] {
+  position: relative;
 }
 
-.microphone {
-  width: 24px;
-}
-
-.microphone:hover::after {
-  content: attr(data-description);
+[data-title]:after {
+  content: attr(data-title);
+  background: rgb(97, 97, 97);
+  color: white;
+  font-size: 12px;
   position: absolute;
-  left: 20%; top: 30%;
-  font-family: Arial, sans-serif;
-  font-size: 11px; /* Размер текста подсказки */
-  border: 1px solid #333;
+  padding: 8px;
+  right: -40px;
+  top: 10px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+}
+
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
 }
 
 .main {
@@ -58,13 +65,14 @@ iframe {
 
 .link {
   color: #909090;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .icon {
   color: #909090;
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 
 .left-nav a:hover {
