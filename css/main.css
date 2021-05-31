@@ -23,8 +23,21 @@ iframe {
   height: 56px;
 }
 
+.magnifier {
+  width: 24px;
+}
+
 .microphone {
   width: 24px;
+}
+
+.microphone:hover::after {
+  content: attr(data-description);
+  position: absolute;
+  left: 20%; top: 30%;
+  font-family: Arial, sans-serif;
+  font-size: 11px; /* Размер текста подсказки */
+  border: 1px solid #333;
 }
 
 .main {
@@ -32,23 +45,27 @@ iframe {
   flex-direction: row;
 }
 
-.iconButton {
+.icon-button {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 72px;
   text-align: center;
+  color: #909090;
+  text-decoration:none;
 }
 
-.icone {
+.link {
+  color: #909090;
+  text-decoration:none;
+}
+
+.icon {
   color: #909090;
   width: 24px;
   height: 24px;
 }
-/*.icone:focus {*/
-/*  color: #fff;*/
-/*}*/
 
 .left-nav a:hover {
   background-color: #555;
@@ -64,17 +81,13 @@ iframe {
   min-height: 100px;
   width: 100%;
   display: grid;
+  background-color: #000;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 10px 20px;
   overflow-y: scroll;
 }
 
-.active {
-  background-color: #000;
-  color: #909090;
-  text-decoration:none;
-}
 
 
 
