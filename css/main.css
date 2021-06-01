@@ -25,6 +25,7 @@ iframe {
 #tape-seek {
   width: 656px;
   height: 40px;
+  position: 0px; 0px;
   padding: 10px 64px 10px 10px;
   border-color: rgb(97, 97, 97);
   background: black;
@@ -99,10 +100,12 @@ iframe {
   background-color: #000;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 10px 20px;
+  grid-gap: 10px 10px;
   overflow-y: scroll;
 }
 
-
+#container {
+  width: 1192px;
+}
 
 
