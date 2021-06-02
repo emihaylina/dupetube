@@ -9,14 +9,10 @@ body {
   background: #181818 !important;
 }
 
-iframe {
-  border: none;
-}
-
 .header {
   width: 100%;
   height: 64px;
-  display: flex;
+  display: inline-flex;
 }
 
 .logo {
@@ -34,8 +30,8 @@ iframe {
 [data-title] {
   position: relative;
 }
-.header-buttons{
-  margin: 5px 5px 5px 250px;
+.header-buttons {
+  margin-left: auto;
 }
 [data-title]:after {
   content: attr(data-title);
