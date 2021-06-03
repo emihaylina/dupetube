@@ -110,5 +110,11 @@ body {
 }
 
 .video {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.video-autor-logo {
+  width: 36px;
+  height:36px ;
 }
