@@ -109,4 +109,6 @@ body {
  margin: 24px 10px 24px 30px;
 }
 
-
+.video {
+  display: inline-block;
+}
