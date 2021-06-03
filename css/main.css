@@ -92,7 +92,7 @@ body {
 }
 
 .grid {
-  font-size: 20px;
+  font-size: 14px;
   min-height: 100px;
   width: 100%;
   margin: 10px 10px;
@@ -100,7 +100,7 @@ body {
   background-color: #000;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 10px 10px;
+  grid-gap: 5px 5px;
   overflow-y: scroll;
 }
 
@@ -113,8 +113,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 266px;
+  width: 273.98px;
 }
+
 .video-autor-logo {
   width: 36px;
   height:36px ;
+  align-self: flex-start;
+}
+
+.comment{
+  margin: 2px 2px;
 }
