@@ -26,6 +26,7 @@ body {
   padding: 10px 64px 10px 10px;
   border-color: rgb(97, 97, 97);
   background: black;
+  font-size: 14px;
 }
 
 [data-title] {
@@ -104,7 +105,7 @@ body {
   background-color: #181818;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 5px 5px;
+  grid-gap: 0px 0px;
   overflow-y: scroll;
 }
 
