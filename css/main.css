@@ -130,7 +130,7 @@ body {
 .video-author-logo {
   width: 36px;
   height:36px ;
-  align-self: flex-start;
+  border-radius: 50%;
 }
 
 .comment{
