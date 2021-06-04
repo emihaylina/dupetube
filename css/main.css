@@ -121,6 +121,12 @@ body {
   width: 274px;
 }
 
+.video-description{
+  display: flex;
+  flex-direction: row;
+
+}
+
 .video-author-logo {
   width: 36px;
   height:36px ;
