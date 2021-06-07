@@ -81,6 +81,11 @@ body {
   text-decoration: none;
   margin: 5px 5px;
 }
+.link-b {
+  color: #909090;
+  text-decoration: none;
+  margin: 5px 5px 5px 20px;
+}
 
 .icon {
   color: #909090;
