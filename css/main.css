@@ -20,6 +20,7 @@ body {
 .logo {
   width: 120px;
   height: 56px;
+  padding: 18px 14px 18px 16px;
 }
 
 #tape-seek {
