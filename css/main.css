@@ -1,5 +1,5 @@
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,6 +10,10 @@ body {
   font-size: 12px;
   font-family: Roboto, Arial, sans-serif;
   color: white;
+}
+
+iframe {
+  border: none;
 }
 
 .header {
@@ -42,6 +46,7 @@ body {
 
 .header-buttons {
   margin-left: auto;
+  border-radius: 50%;
 }
 
 [data-title]:after {
@@ -133,7 +138,6 @@ body {
   justify-content: center;
   height: 266px;
   width: 274px;
-  border: none;
 }
 
 .video-description{
